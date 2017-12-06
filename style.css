@@ -1,0 +1,23 @@
+.firstColomn {
+  background-color: white; }
+
+.secondColomn {
+  background-color: white;
+  border: 1px solid grey; }
+
+.listStyleNone {
+  list-style-type: none; }
+
+.mainColomn {
+  background-color: white; }
+
+.contPadding {
+  padding-top: 10px; }
+
+.keywordPadding {
+  padding-top: 3px; }
+
+.ulPadding {
+  padding-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */

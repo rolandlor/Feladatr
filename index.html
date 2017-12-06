@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+            
+    </head>
+    <body ng-app="myModule" ng-controller="myController">
+        <div class="container contPadding">
+            <div class="row mainColomn">
+                <div class="col-md-2 firstColomn" >
+                    <h2>Kosár tartalma:</h2>
+                    <div ng-repeat="b in basketData">{{b}}</div>
+                    </div>
+                <div class="col-md-10 secondColomn">
+                    <form>
+<input class="form-control input-lg" type="text" placeholder="Search..." ng-model="searchText" ng-change="search()"/>
+</form>
+    <div class="col-md-3" ng-repeat="book in bookDatas.items">
+        <div>                              
+            <div>{{book.volumeInfo.title}}</div>
+    <input type="button" value="Kosárba" ng-click="basket(book.volumeInfo.title)"/>
+    </div>  
+    </div>
+    
+</div>
+
+</div>
+</div>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>      
+    </body>
+</html>

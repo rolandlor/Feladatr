@@ -1,0 +1,32 @@
+$firstColomnBgColor: white;
+$secondColomnBgColor: white;
+$secondColomnBorderColor: grey;
+$mainRowBgColor: white;
+$secondColomnBorder: 1px solid;
+$none:none;
+$contPaddingVal:10px;
+$keywordPaddingTop:3px;
+$keywordPaddingLeft:10px;
+
+.firstColomn {
+background-color:$firstColomnBgColor;
+}
+.secondColomn {
+    background-color:$secondColomnBgColor;
+    border:$secondColomnBorder $secondColomnBorderColor
+}
+.listStyleNone {
+list-style-type:$none;
+}
+.mainColomn {
+    background-color:$mainRowBgColor;
+}
+.contPadding {
+    padding-top:$contPaddingVal;
+}
+.keywordPadding {
+padding-top:$keywordPaddingTop;
+}
+.ulPadding {
+    padding-left:$keywordPaddingLeft;
+}
